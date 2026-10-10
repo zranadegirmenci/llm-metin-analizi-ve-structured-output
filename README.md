@@ -54,20 +54,24 @@ Geleneksel çağrı merkezi ve destek operasyonlarında serbest metin halindeki 
 
 ## Kurulum ve Çalıştırma
 
-```bash
-
 ### 1. Depoyu Klonlayın
-git clone [https://github.com/](https://github.com/)<kullanici-adiniz>/llm-metin-analizi-ve-structured-output.git
+```bash
+git clone [https://github.com/](https://github.com/)zranadegirmenci/llm-metin-analizi-ve-structured-output.git
 cd llm-metin-analizi-ve-structured-output
-2. Gerekli Kütüphaneleri Yükleyin
-Bash
+```
+
+### 2. Gerekli Kütüphaneleri Yükleyin
+```bash
 pip install -q -U google-genai pandas matplotlib seaborn
-3. API Anahtarının Tanımlanması
-Google AI Studio adresine giderek ücretsiz bir Gemini API anahtarı edinin.
+```
 
-llm_metin_analizi_ve_structured_output.ipynb dosyasını açın.
+### 3. API Anahtarının Tanımlanması
+1. [Google AI Studio](https://aistudio.google.com/) adresine giderek ücretsiz bir Gemini API anahtarı edinin.
+2. `llm_metin_analizi_ve_structured_output.ipynb` dosyasını açın.
+3. İlgili kod hücresinde yer alan `API_KEY` alanına kendi anahtarınızı girin:
+```python
+API_KEY = "BURAYA_KENDI_API_ANAHTARINIZI_YAZIN"
+```
 
-İlgili kod hücresinde yer alan API_KEY alanına kendi anahtarınızı girin.
-4. Not Defterini Çalıştırma
-Not defterindeki kod hücrelerini yukarıdan aşağıya doğru sırayla çalıştırarak serbest metin analizi, duygu/aciliyet sınıflandırması, görselleştirme ve SLA aksiyon matrisi üretim adımlarını tamamlayabilirsiniz.
-
+### 4. Not Defterini Çalıştırma
+* Not defterindeki kod hücrelerini yukarıdan aşağıya doğru sırayla çalıştırarak serbest metin analizi, duygu/aciliyet sınıflandırması, görselleştirme ve SLA aksiyon matrisi üretim adımlarını tamamlayabilirsiniz.
