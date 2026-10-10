@@ -70,7 +70,7 @@ pip install -q -U google-genai pandas matplotlib seaborn
 2. `llm_metin_analizi_ve_structured_output.ipynb` dosyasını açın.
 3. İlgili kod hücresinde yer alan `API_KEY` alanına kendi anahtarınızı girin:
 ```python
-API_KEY = "BURAYA_KENDI_API_ANAHTARINIZI_YAZIN"
+API_KEY = "YOUR_GEMINI_API_KEY_HERE"
 ```
 
 ### 4. Not Defterini Çalıştırma
